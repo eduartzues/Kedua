@@ -61,7 +61,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PRICE"
+            android:text="Order Summary"
             android:textSize="25dp"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="16dp"/>
@@ -79,20 +79,6 @@
             android:text="ORDER"
             android:textStyle="bold"
             android:onClick="submitOrder"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_height="wrap_content"
-        android:text="ORDER"
-        android:textStyle="bold"
-        android:onClick="submitOrder"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_height="wrap_content"
-        android:text="ORDER"
-        android:textStyle="bold"
-        android:onClick="submitOrder"/>
 
 </LinearLayout>
 
