@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-
-
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:baselineAligned="false"
     android:orientation="vertical"
     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOPPING"
+        android:textSize="50dp"
+        android:id="@+id/x"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <CheckBox
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/checkbox"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Whipped Cream"
+        android:layout_toRightOf="@+id/checkbox"/>
+
+    </RelativeLayout>
 
     <TextView
         android:layout_width="wrap_content"
